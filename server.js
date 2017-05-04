@@ -4,8 +4,16 @@ var express = require('express'),
 
 app.use(express.static('public'));
 
-app.get('/', function homepage(req, res) {
+app.get('/', function homePage(req, res) {
   res.sendFile(__dirname + '/views/index.html');
+});
+
+app.get('/about', function aboutPage(req, res) {
+  res.sendFile(__dirname + '/views/about.html');
+});
+
+app.get('/contact', function contactPage(req, res) {
+  res.sendFile(__dirname + '/views/contact.html');
 });
 
 app.listen(process.env.PORT || 8000, function () {
