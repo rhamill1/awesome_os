@@ -1,0 +1,24 @@
+{
+  "name": "awesome_os",
+  "version": "1.0.0",
+  "description": "Absolute OS is a brief Node app for the staffing company of that name.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhamill1/awesome_os.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhamill1/awesome_os/issues"
+  },
+  "homepage": "https://github.com/rhamill1/awesome_os#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
