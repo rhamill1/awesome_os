@@ -3,3 +3,27 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: green;
 }
+
+header {
+  background-color: #ff5315;
+  height: 5em;
+  text-align: right;
+}
+
+header li {
+  display: inline-block;
+  padding-top: 1em;
+  padding-right: 2em;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-border {
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  padding: 10px;
+}
