@@ -30,6 +30,16 @@ header a {
   padding: 10px;
 }
 
+.contact-border:hover {
+  border-color: #fbb9cd;
+  transition-duration: 0.6s;
+}
+
+.contact-border a:hover {
+  color: #fbb9cd;
+  transition-duration: 0.4s;
+}
+
 footer {
   float: left;
   height: auto;
