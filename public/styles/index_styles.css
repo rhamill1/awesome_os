@@ -1,9 +1,10 @@
 .home-contents {
-  margin-top: 6em;
-  height: 500px;
-  background-image: url("http://i.imgur.com/7h8ejPJ.png");
+  background-size: 100% 135%;
+  height: 700px;
+  background-image: url('http://i.imgur.com/QIQhCuz.jpg');
   text-align: center;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 .home-contents h3 {
@@ -33,3 +34,52 @@
   font-size: 110;
   font-weight: 800;
 }
+
+.white-index-div {
+  height: 500px;
+  background: white;
+}
+
+.white-index-div h1 {
+  font-size: 60;
+  font-weight: 800;
+  color: #ff5315;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+}
+
+.white-index-div p {
+  font-size: 25;
+  font-weight: 300;
+  color: #4c4849;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.red-gradient-curve {
+  height: 500px;
+  background-image: url('/images/orange_red_gradient_curve.png');;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.blue-gradient-curve {
+  height: 500px;
+  background-image: url('/images/blue_gradient_curve.png');;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.island-piers-div {height: 500px;
+  background-image: url('/images/island_piers.jpg');;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;}
