@@ -86,6 +86,11 @@ footer {
   left: -50px;
 }
 
+.footer-social a:hover {
+  color: #bbb9ba;
+  transition-duration: 0.4s;
+}
+
 .footer-black-bar {
   position: absolute;
   background: #242223;
