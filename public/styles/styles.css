@@ -8,6 +8,8 @@ header {
   background-color: #ff5315;
   height: 5em;
   text-align: right;
+  position: fixed;
+  width: 100%;
 }
 
 header li {
@@ -31,7 +33,7 @@ header a {
 footer {
   float: left;
   height: auto;
-  position: absolute;
+  position: relative;
   background: #4c4849;
   bottom: 0;
   width: 100%;
@@ -58,6 +60,7 @@ footer {
 }
 
 .footer-social {
+  display: block;
   font-size: 50px;
   clear: both;
   text-align: center;

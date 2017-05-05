@@ -3,12 +3,113 @@
     <title></title>
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Playfair+Display|Raleway" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/contact_styles.css">
     <script src="/js/app.js"></script>
   </head>
 
+  <header>
+    <li>
+      <a href='/'>HOME</a>
+    </li>
+    <li>
+      <a href='/about'>ABOUT</a>
+    </li>
+    <li>
+      <div class='contact-border'>
+        <a href='/contact'>CONTACT US</a>
+      </div>
+    </li>
+  </header>
+
   <body>
-    <h1>Contact</h1>
-    <h3>How can we work together?</h3>
+    <div class='contact-content'>
+      <h1>CONTACT</h1>
+      <h3>Get in touch with us.</h3>
+    </div>
+    <div class='form-div'>
+      <form action="mailto:rhamill11@gmail.com" method="post" enctype="text/plain">
+        Name:<br>
+        <input type="text" name="name"><br>
+<!--         E-mail:<br>
+        <input type="text" name="mail"><br>
+        Phone:<br>
+        <input type="text" name="phone"><br>
+        Subject:<br>
+        <input type="text" name="subject"><br>
+        Services:<br>
+        <input type="text" name="services"><br>
+
+        <select>
+          <option value="volvo">Volvo</option>
+          <option value="saab">Saab</option>
+          <option value="mercedes">Mercedes</option>
+          <option value="audi">Audi</option>
+        </select> -->
+        Message:<br>
+        <input type="text" name="message" size="50" id='email-message'><br><br>
+
+        <input type="submit" value="Send" id='submit-email'>
+        <input type="reset" value="Reset">
+      </form>
+    </div>
   </body>
+
+  <footer>
+    <div class='footer-column first-footer-column'>
+      <h3>Philippines Offices</h3>
+      <p>
+        Landco Corporate Center <br>
+        10th Floor <br>
+        JP Laurel Avenue, Bajada <br>
+        Davao City, Philippines
+      </p>
+      <p>
+        Andreliz Building <br>
+        238 Araullo Extension <br>
+        Davao City, Philippines
+      </p>
+    </div>
+    <div class='footer-column'>
+      <br><br>
+      <p>
+        Hai Global Building <br>
+        2nd & 3rd Floors <br>
+        JP Laurel Avenue, Bajada <br>
+        Davao City, Philippines
+      </p>
+      <p>
+        Tavera Business Center <br>
+        Ground and 3rd Floors <br>
+        J. Camus Extension (aka. Pardo de Tavera)<br>
+        Davao City, Philippines
+      </p>
+    </div>
+    <div class='footer-column'>
+      <h3>Mailing Address</h3>
+      <p>
+        8605 Santa Monica Blvd. #30540 <br>
+        Los Angeles, CA 90069
+      </p>
+      <h3>Contact Us</h3>
+      <p>
+        Phone:  310-295-9416 <br>
+        Email: info@offsourcing.com
+      </p>
+    </div>
+    <div class='footer-social'>
+      <a href="#">
+        <i class="fa fa-facebook-square"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-linkedin-square"></i>
+      </a>
+      <a href="#">
+        <i class="fa fa-twitter-square"></i>
+      </a>
+    </div>
+    <div class='footer-black-bar'></div>
+  </footer>
 </html>
