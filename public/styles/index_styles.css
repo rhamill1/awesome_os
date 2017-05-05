@@ -72,6 +72,38 @@
   background-size: 100% 100%;
 }
 
+.sun-div {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.our-people h3 {
+  font-size: 60;
+  font-weight: 800;
+  color: white;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+}
+
+.our-people p {
+  font-size: 25;
+  font-weight: 300;
+  color: white;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+  /*text-align: center;*/
+}
+
 .blue-gradient-curve {
   height: 500px;
   background-image: url('/images/blue_gradient_curve.png');;
