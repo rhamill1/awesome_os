@@ -67,7 +67,7 @@
 
 .red-gradient-curve {
   height: 500px;
-  background-image: url('/images/orange_red_gradient_curve.png');;
+  background-image: url('/images/orange_red_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -78,6 +78,11 @@
   display: inline-block;
   float: left;
   /*background-color: red;*/
+}
+
+.sun-div img {
+  margin-top: 40px;
+  max-height: 400px;
 }
 
 .our-people h3 {
@@ -148,10 +153,11 @@
 
 
 .blue-gradient-curve {
-  height: 500px;
-  background-image: url('/images/blue_gradient_curve.png');;
+  height: 600px;
+  background-image: url('/images/blue_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: inline-block;
 }
 
 .blue-gradient-curve h3 {
@@ -178,6 +184,10 @@
   padding-top: 2em;
 }
 
+.blue-gradient-curve img {
+  padding-top: 40px;
+}
+
 .services h1 {
   font-size: 60;
   font-weight: 800;
@@ -198,8 +208,18 @@
   float: left;
 }
 
+.services h3 {
+  font-size: 25;
+  left: 0;
+  right: 0;
+  width: 60%;
+  margin: auto;
+  padding-top: 2em;
+  text-align: left;
+}
+
 .services p {
-  font-size: 20;
+  font-size: 15;
   font-weight: 300;
   color: #4c4849;
   left: 0;
@@ -207,8 +227,8 @@
   width: 60%;
   height: 10%;
   margin: auto;
-  padding-top: 2em;
-  text-align: center;
+  text-align: justify;
+  padding: 0;
 }
 
 .island-piers-div {
