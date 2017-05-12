@@ -1,5 +1,6 @@
+
 .home-contents {
-  background-size: 100% 135%;
+  background-size: cover;
   height: 700px;
   background-image: url('http://i.imgur.com/QIQhCuz.jpg');
   text-align: center;
@@ -46,10 +47,7 @@
   color: #ff5315;
   left: 0;
   right: 0;
-  width: 80%;
-  height: 10%;
-  margin: auto;
-  padding-top: 2em;
+  margin-left: 2em;
 }
 
 .white-index-div p {
@@ -61,8 +59,7 @@
   width: 60%;
   height: 10%;
   margin: auto;
-  padding-top: 2em;
-  text-align: center;
+  text-align: justify;
 }
 
 .red-gradient-curve {
@@ -281,4 +278,56 @@
   color: white;
   background-color: #ffc715;
   transition-duration: 0.4s;
+}
+
+
+
+
+
+@media (max-width: 975px) {
+  .home-contents h3 {
+    font-size: 60px;
+  }
+
+  .home-contents h1 {
+    font-size: 80px;
+  }
+
+  .white-index-div {
+    height: 600px;
+  }
+
+  .red-gradient-curve {
+    height: 700px;
+  }
+}
+
+
+@media (max-width: 710px) {
+  .home-contents h3 {
+    font-size: 40px;
+  }
+
+  .home-contents h1 {
+    font-size: 60px;
+  }
+
+  .white-index-div h1 {
+    font-size: 40;
+  }
+
+  .white-index-div p {
+    font-size: 18;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .white-index-div h1 {
+    margin-left: 30px;
+  }
+
+  .white-index-div p {
+    width: 90%;
+  }
 }
