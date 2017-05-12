@@ -77,6 +77,7 @@
   height: 100%;
   display: inline-block;
   float: left;
+  /*background-color: red;*/
 }
 
 .our-people h3 {
@@ -101,8 +102,47 @@
   height: 10%;
   margin: auto;
   padding-top: 2em;
-  /*text-align: center;*/
 }
+
+.our-approach {
+  left: 0;
+  right: 0;
+  width: 50%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+  float: left;
+}
+
+.our-approach h1 {
+  margin-bottom: 20px;
+}
+
+.our-approach p {
+  text-align: left;
+  margin-bottom: 1em;
+}
+
+.right-images {
+  height: 500px;
+  width: 50%;
+  float: right;
+  z-index: -200;
+  /*background-color: purple;*/
+}
+
+.hibiscus-pink-top-right {
+  /*background-image: url('/images/hibiscus_pink_top_right.png');*/
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 50%;
+  position: relative;
+  top: -30px;
+  float: right;
+  z-index: -1;
+  background-size: 100% 100%;
+}
+
 
 .blue-gradient-curve {
   height: 500px;
