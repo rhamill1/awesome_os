@@ -178,7 +178,87 @@
   padding-top: 2em;
 }
 
-.island-piers-div {height: 500px;
-  background-image: url('/images/island_piers.jpg');;
+.services h1 {
+  font-size: 60;
+  font-weight: 800;
+  color: #ff5315;
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.services-left, .services-right {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.services p {
+  font-size: 20;
+  font-weight: 300;
+  color: #4c4849;
+  left: 0;
+  right: 0;
+  width: 60%;
+  height: 10%;
+  margin: auto;
+  padding-top: 2em;
+  text-align: center;
+}
+
+.island-piers-div {
+  height: 500px;
+  background-image: url('/images/island_piers.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;}
+  background-size: 100% 100%;
+}
+
+.island-piers-div h1 {
+  left: 0;
+  right: 0;
+  width: 80%;
+  height: 10%;
+  margin: auto;
+  color: #ffc715;
+  font-size: 60;
+  font-weight: 600;
+  text-align: center;
+}
+
+.island-piers-div p {
+  width: 40%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 5em;
+  color: white;
+  font-size: 30;
+  font-weight: 600;
+  text-align: center;
+}
+
+.island-contact-button {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.island-piers-div a {
+  color: #ffc715;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  border-style: solid;
+  border-color: #ffc715;
+  border-width: 2px;
+}
+
+.island-piers-div a:hover {
+  color: white;
+  background-color: #ffc715;
+  transition-duration: 0.4s;
+}
