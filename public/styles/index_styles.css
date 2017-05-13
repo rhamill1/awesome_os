@@ -104,6 +104,7 @@
   height: 10%;
   margin: auto;
   padding-top: 2em;
+  text-align: justify;
 }
 
 .our-partnership {
@@ -298,7 +299,43 @@
   }
 
   .red-gradient-curve {
-    height: 700px;
+    height: 600px;
+  }
+
+  .our-people h3 {
+    font-size: 40;
+    padding-left: 550px;
+  }
+
+  .our-people p {
+    width: 35%;
+    margin-right: 3em;
+    padding-top: 10px;
+  }
+
+}
+
+
+@media (max-width: 820px) {
+  .red-gradient-curve {
+    height: 930px;
+  }
+
+  .red-gradient-curve img {
+    margin-top: 150px;
+  }
+
+  .our-people h3 {
+    position: absolute;
+    margin-left: 2em;
+    padding-left: 50px;
+    width: 350px;
+  }
+
+  .our-people p {
+    position: absolute;
+    margin: 550px 0 0 3em;
+    width: 83%;
   }
 }
 
