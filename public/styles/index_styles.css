@@ -428,6 +428,17 @@
   #not-your-white-id p {
     font-size: 18;
   }
+
+  .services h3 {
+    padding-top: 3em;
+    margin: 0 1em;
+    width: initial;
+  }
+
+  .services p {
+    margin: 0 1em;
+    width: initial;
+  }
 }
 
 
@@ -436,6 +447,7 @@
     left: 5px;
   }
 }
+
 
 @media (max-width: 520px) {
   #partnership-white-id {
@@ -449,6 +461,29 @@
   .our-partnership p {
     margin-top: 550px;
   }
+
+  #services {
+    height: 700px;
+  }
+
+  .services-left, .services-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .services-right {
+    margin-top: 20px;
+  }
+
+  .services h3 {
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .services p {
+    height: initial;
+  }
+
 }
 
 
