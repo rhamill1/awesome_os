@@ -181,6 +181,7 @@
   height: 10%;
   margin: auto;
   padding-top: 2em;
+  text-align: justify;
 }
 
 .blue-gradient-curve img {
@@ -283,7 +284,11 @@
 }
 
 
-
+@media (max-width: 1120px) {
+  .blue-gradient-curve h3 {
+    font-size: 50px;
+  }
+}
 
 
 @media (max-width: 975px) {
@@ -323,6 +328,20 @@
     right: 50px;
   }
 
+  .blue-gradient-curve {
+    height: 700px;
+  }
+
+  .blue-gradient-curve h3 {
+    font-size: 40;
+    padding-left: 515px;
+  }
+
+  .blue-gradient-curve p {
+    width: 35%;
+    margin-right: 3em;
+    padding-top: 10px;
+  }
 }
 
 
@@ -366,6 +385,29 @@
     position: absolute;
     margin-top: 490px;
     width: 90%;
+  }
+
+  .blue-gradient-curve {
+    height: 1100px;
+    width: 100%;
+  }
+
+  .blue-gradient-curve img {
+    margin-top: 150px;
+  }
+
+  .blue-gradient-curve h3 {
+    position: absolute;
+    margin-top: 1em;
+    margin-left: 2em;
+    padding-left: 50px;
+    width: 350px;
+  }
+
+  .blue-gradient-curve p {
+    position: absolute;
+    margin: 600px 0 0 3em;
+    width: 83%;
   }
 }
 
