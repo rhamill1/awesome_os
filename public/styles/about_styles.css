@@ -79,9 +79,46 @@
   height: 600px;
 }
 
+.leadership-team h1 {
+  font-size: 80;
+  font-weight: 800;
+  color: #ffc715;
+  margin-top: 1em;
+  text-align: center;
+}
+
 .our-offices {
   height: 600px;
   background-color: #ffc715;
+}
+
+.our-offices h1 {
+  color: #6666ff;
+  font-size: 80;
+  font-weight: 800;
+  padding-top: 1em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.our-offices p {
+  color: white;
+  font-size: 20;
+  font-weight: 300;
+  margin: 0 auto;
+  margin-top: 1em;
+  text-align: justify;
+  width: 80%;
+}
+
+.our-office-hibiscus {
+  height: 270px;
+  width: 270px;
+  background-image: url('/images/our_office_hibiscus.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  top: 50px;
 }
 
 .coolture {
