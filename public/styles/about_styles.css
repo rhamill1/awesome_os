@@ -122,6 +122,40 @@
 }
 
 .coolture {
-  height: 500px;
+  height: 1063px;
 }
 
+.coolture h1 {
+  font-size: 80;
+  font-weight: 800;
+  color: #ffc715;
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.coolture li {
+  display: inline;
+  margin: 0 0 0 17em;
+  color: #666a73;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.coolture-lg-img {
+  background-image: url('/images/coolture_large.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: relative;
+}
+
+.coolture-sm-imgs {
+  display: inline;
+}
+
+.coolture-sm-imgs img {
+  margin-top: 4px;
+  height: 400px;
+  width: 33.17%;
+}
