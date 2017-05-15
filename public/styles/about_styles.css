@@ -1,0 +1,56 @@
+.about-us {
+  height: 600px;
+}
+
+.about-us h1 {
+  font-size: 80;
+  font-weight: 800;
+  color: #ff5315;
+  margin-top: 2em;
+  text-align: center;
+}
+
+.about-us h3 {
+  font-size: 50;
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.about-us p {
+  font-size: 20;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 0;
+  text-align: justify;
+  width: 60%;
+}
+
+.red-gradient-curve {
+  height: 600px;
+  background-image: url('/images/orange_red_gradient_curve.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.red-gradient-curve h1 {
+  font-size: 80;
+  font-weight: 800;
+  color: white;
+  line-height: 80%;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.leadership-team {
+  height: 600px;
+}
+
+.our-offices {
+  height: 600px;
+  background-color: #ffc715;
+}
+
+.coolture {
+  height: 500px;
+}
