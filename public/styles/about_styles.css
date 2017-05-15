@@ -27,10 +27,22 @@
 }
 
 .red-gradient-curve {
-  height: 600px;
+  height: 650px;
   background-image: url('/images/orange_red_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  display: inline-block;
+}
+
+.we-are-palm {
+  height: 400px;
+  width: 400px;
+  background-image: url('/images/we_are_palms.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  position: relative;
+  top: -100px;
 }
 
 .red-gradient-curve h1 {
@@ -38,8 +50,29 @@
   font-weight: 800;
   color: white;
   line-height: 80%;
-  padding-top: 40px;
+  padding-top: 150px;
   text-align: center;
+}
+
+.red-gradient-curve h5 {
+  font-size: 40;
+  font-weight: 600;
+  color: #ffc715;
+  margin: 0 0 0 2em;
+  position: relative;
+  top: -100px;
+}
+
+.red-gradient-curve p {
+  color: white;
+  margin: 0 2em 2em 5em;
+  position: relative;
+  top: -100px;
+}
+
+.red-grad-left, .red-grad-right {
+  float: left;
+  width: 50%;
 }
 
 .leadership-team {
@@ -54,3 +87,4 @@
 .coolture {
   height: 500px;
 }
+
