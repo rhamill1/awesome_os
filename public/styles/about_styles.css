@@ -203,12 +203,47 @@
   position: relative;
 }
 
-.coolture-sm-imgs {
-  display: inline;
+.coolture-sm-img {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+  width: 33.17%;
+  margin-top: 4px;
+  text-align: center;
 }
 
-.coolture-sm-imgs img {
-  margin-top: 4px;
-  height: 400px;
-  width: 33.17%;
+.coolture-sm-img h3 {
+  padding-top: 8em;
+  color: white;
+}
+
+#coolture-left {
+  background-image: url('/images/coolture_left.jpeg');
+}
+
+#coolture-center {
+  background-image: url('/images/coolture_center.jpg');
+}
+
+#coolture-right {
+  background-image: url('/images/coolture_right.png');
+}
+
+.coolture-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.coolture-sm-img:hover .coolture-img-overlay {
+  opacity: .85;
 }
