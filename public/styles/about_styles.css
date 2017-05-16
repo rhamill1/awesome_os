@@ -130,6 +130,7 @@
   margin-top: 4px;
   height: 180px;
   width: 14%;
+  cursor: pointer;
 }
 
 .leader-names {

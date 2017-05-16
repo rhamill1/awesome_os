@@ -3,19 +3,101 @@ console.log('app.js is loaded');
 
 $(document).ready(function(){
 
-  $(window).stellar({
-    horizontalScrolling: false
+  // $(window).stellar({
+  //   horizontalScrolling: false
+  // });
+
+  $('#johnny').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/13 square.jpeg'> \
+      <div class='leadership-large-content'> \
+        <h3>Johnny</h3> \
+        <h5>CEO</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
   });
 
-  $(window).scroll(function() {
-    var windowScrollPosition = $(window).scrollTop();
-    var opacityValue = (windowScrollPosition / 2.5)/100
-
-    if (windowScrollPosition < 10){
-      $('header').css('background', 'rgba(255, 83, 21, .02)');
-    } else {
-      $('header').css('background', 'rgba(255, 83, 21,' +  opacityValue + ')');
-    }
+  $('#ryan').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/14 square.jpeg'> \
+      <div class='leadership-large-content'> \
+        <h3>Ryan</h3> \
+        <h5>CFO</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
   });
+
+  $('#matt').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/15 square.jpeg'> \
+      <div class='leadership-large-content'> \
+        <h3>Matt</h3> \
+        <h5>CTO</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
+  });
+
+  $('#sam').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/16 square.jpg'> \
+      <div class='leadership-large-content'> \
+        <h3>Sam</h3> \
+        <h5>Lead</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
+  });
+
+  $('#nykki').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/17 square.jpg'> \
+      <div class='leadership-large-content'> \
+        <h3>Nykki</h3> \
+        <h5>CMO</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
+  });
+
+  $('#sal').click(function() {
+    $('.leadership-large').html(
+      "<img src='/images/18 square.jpeg'> \
+      <div class='leadership-large-content'> \
+        <h3>Sal</h3> \
+        <h5>Analyst</h5> \
+        <p>Chutney garden beet eu brined seed orci lorem tomatillo vegan whole pasture raised. Peppers squash whey fed farm brined. Brined orchard peppers farm raw milk orci unpasteurized gluten free raw natural raw free range figs produce dill. Cabbage sit medley rustic ramps cured peppers. Seed dill raw milk natural farm fair trade. Cage less pasture raised pasture raised dolor lorem lorem dill grain vegan persimmon chutney cabbage. Lorem gluten free whey dolor figs figs ramps fermented canned produce.</p> \
+      </div>"
+    )
+  });
+
+
+
+
+  var path = $(location).attr('href')
+  var colorHeaderPage = path.includes('about');
+
+  if (colorHeaderPage == true){
+    return;
+  } else {
+
+    $('header').css('background', 'rgba(255, 83, 21, .02)');
+
+    $(window).scroll(function() {
+      var windowScrollPosition = $(window).scrollTop();
+      var opacityValue = (windowScrollPosition / 2.5)/100
+
+      if (windowScrollPosition < 10){
+          $('header').css('background', 'rgba(255, 83, 21, .02)');
+        } else {
+          $('header').css('background', 'rgba(255, 83, 21,' +  opacityValue + ')');
+      }
+    });
+  };
+
+
+
 
 });
