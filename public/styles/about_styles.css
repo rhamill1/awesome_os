@@ -204,6 +204,10 @@
   position: relative;
 }
 
+.coolture-sm-imgs {
+  white-space: nowrap
+}
+
 .coolture-sm-img {
   display: inline-block;
   background-repeat: no-repeat;
@@ -251,6 +255,12 @@
 
 
 
+@media (max-width: 1000px) {
+  .coolture li {
+    margin: 0 0 0 12em;
+  }
+}
+
 @media (max-width: 870px) {
   .about-us h1 {
     font-size: 60;
@@ -278,6 +288,11 @@
   }
 }
 
+@media (max-width: 750px) {
+  .coolture li {
+    margin: 0 0 0 8em;
+  }
+}
 
 @media (max-width: 600px) {
   .our-offices h1 {
@@ -302,5 +317,13 @@
 
   .red-grad-left, .red-grad-right {
     width: 100%;
+  }
+
+  .coolture li {
+    margin: 0 0 0 4em;
+  }
+
+  .coolture h1 {
+    font-size: 60px;
   }
 }
