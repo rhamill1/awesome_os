@@ -252,6 +252,9 @@
 
 
 @media (max-width: 870px) {
+  .about-us h1 {
+    font-size: 60;
+  }
   .about-us p {
     font-size: 15;
     width: 90%;
@@ -259,5 +262,45 @@
 
   .about-us img {
     height: 200px;
+  }
+}
+
+
+@media (max-width: 810px) {
+  .red-gradient-curve h5 {
+    font-size: 30;
+    margin: 0 0 0 1em;
+  }
+
+  .red-gradient-curve p {
+    margin: 0 2em 2em 2em;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .our-offices h1 {
+    font-size: 55;
+  }
+
+  .our-offices p {
+    font-size: 16;
+    width: 90%;
+  }
+
+  .our-office-hibiscus {
+    top: 100px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .red-gradient-curve {
+    height: 850px;
+  }
+
+  .red-grad-left, .red-grad-right {
+    width: 100%;
   }
 }
