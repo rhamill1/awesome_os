@@ -248,3 +248,16 @@
 .coolture-sm-img:hover .coolture-img-overlay {
   opacity: .85;
 }
+
+
+
+@media (max-width: 870px) {
+  .about-us p {
+    font-size: 15;
+    width: 90%;
+  }
+
+  .about-us img {
+    height: 200px;
+  }
+}
