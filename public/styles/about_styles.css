@@ -76,7 +76,7 @@
 }
 
 .leadership-team {
-  height: 600px;
+  height: 700px;
 }
 
 .leadership-team h1 {
@@ -87,6 +87,52 @@
   text-align: center;
 }
 
+.leadership-large {
+  height: 300px;
+  background-color: #F8F8FA;
+  margin: 0 7em 0 5em;
+  display: inline-block;
+}
+
+.leadership-large img {
+  height: 300px;
+}
+
+.leadership-large-content {
+  height: 250px;
+  width: 60%;
+  float: right;
+  position: relative;
+  margin-right: 4em;
+}
+
+.leadership-large-content h3 {
+  margin-top: 3em;
+}
+
+.leadership-large-content p {
+  text-align: justify;
+}
+
+.leadership-sm-imgs {
+  margin: 0 5em;
+  display: inline;
+}
+
+.leadership-sm-imgs img {
+  margin-top: 4px;
+  height: 180px;
+  width: 14%;
+}
+
+.leader-names {
+  display: inline-block;
+}
+
+.leader-names h5 {
+  float: left;
+  margin: 1em 80px;
+}
 .our-offices {
   height: 600px;
   background-color: #ffc715;
