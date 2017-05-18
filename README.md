@@ -8,6 +8,7 @@ npm install --save express
 npm install -g nodemon
 npm install body-parser
 npm install nodemailer --save
+npm install dotenv --save
 ```
 
 ### Run Dev Server

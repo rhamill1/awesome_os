@@ -1,6 +1,7 @@
 
 var express = require('express'),
   app = express();
+require('dotenv').config()
 
 app.use(express.static('public'));
 
@@ -37,13 +38,13 @@ app.post('/contact', function(req,res){
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: '',
-      pass: ''
+      user: process.env.G_USER,
+      pass: process.env.G_PASS
     }
   });
 
   let mailOptions = {
-    to: '',
+    to: process.env.G_USER,
     // from: name, _______________________________________ DEAD CODE
     subject: req.body.services + ' - ' + req.body.subject,
     html: '<h1>' + req.body.name + '</h1><br> \
