@@ -1,5 +1,27 @@
 
 .success-content {
-  height: 400px;
-  margin-top: 100px;
+  height: 350px;
+  margin-top: 150px;
+  /*margin-left: 100px;*/
+  text-align: center;
+}
+
+.success-content h5 {
+  margin-bottom: 100px;
+}
+
+.success-content a {
+  color: #6666ff;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  border-style: solid;
+  border-color: #6666ff;
+  border-width: 2px;
+}
+
+.success-content a:hover {
+  color: white;
+  background-color: #6666ff;
+  transition-duration: 0.4s;
 }
