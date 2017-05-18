@@ -1,6 +1,7 @@
 
 .contact-content {
-  height: 200px;
+  height: auto;
+  margin: 100px;
 }
 
 input {

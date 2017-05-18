@@ -77,7 +77,12 @@ $(document).ready(function(){
 
 
   var path = $(location).attr('href')
-  var colorHeaderPage = path.includes('about');
+
+  if (path.includes('about') || path.includes('contact') || path.includes('email')) {
+    var colorHeaderPage = true;
+  } else {
+    var colorHeaderPage = false;
+  };
 
   if (colorHeaderPage == true){
     return;
