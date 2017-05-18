@@ -45,7 +45,6 @@ app.post('/contact', function(req,res){
 
   let mailOptions = {
     to: process.env.G_USER,
-    // from: name, _______________________________________ DEAD CODE
     subject: req.body.services + ' - ' + req.body.subject,
     html: '<h1>' + req.body.name + '</h1><br> \
     <h3>' + req.body.subject + '</h3><br> \

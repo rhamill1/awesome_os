@@ -4,7 +4,74 @@
   margin: 100px;
 }
 
-input {
+.contact-content h1 {
+  color: #ffc715;
+  font-size: 60px;
+  margin-bottom: 0px;
+}
+
+.contact-content h3 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+  margin-top: 0;
+}
+
+.top-row-headers, .second-row-headers {
   display: inline-block;
+
+}
+
+.top-row-headers p {
   float: left;
+  margin-right: 18em;
+  margin-bottom: 5px;
+}
+
+.top-row-input input {
+  float: left;
+  margin-right: 10px;
+  width: 30%;
+}
+
+.second-row-headers p {
+  float: left;
+  margin-right: 30em;
+  margin-bottom: 5px;
+}
+
+.second-row-input input {
+  float: left;
+  margin-right: 10px;
+  width: 61%;
+}
+
+#p-second {
+  margin-right: 0px;
+  margin-left: 8em;
+}
+
+select {
+  width: 30%;
+}
+
+.last-row-input p {
+  float: left;
+  margin-right: 18em;
+  margin-bottom: 5px;
+}
+
+#email-message {
+  width: 92%;
+  height: 7em;
+}
+
+#submit-email {
+  color: white;
+  margin-top: 10px;
+  background-color: #6666ff;;
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  cursor: pointer;
+
 }

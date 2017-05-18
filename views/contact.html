@@ -34,27 +34,42 @@
 
       <div class='form-div'>
         <form method="post">
-          Name:<br>
-          <input type="text" name="name"><br>
-          E-mail:<br>
-          <input type="text" name="email"><br>
-          Phone:<br>
-          <input type="text" name="phone"><br>
-          Subject:<br>
-          <input type="text" name="subject"><br>
-          Services:<br>
-          <select name='services'>
-            <option value=""></option>
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="mercedes">Mercedes</option>
-            <option value="audi">Audi</option>
-          </select><br>
-
-          Message:<br>
-          <input type="text" name="message" size="100" height="100" id='email-message'><br><br>
-          <input type="submit" value="Send" id='submit-email'>
-          <input type="reset" value="Reset">
+          <div class='contact-top-row'>
+            <div class='top-row-headers'>
+              <p>Name:</p>
+              <p>Email:</p>
+              <p>Phone:</p>
+            </div>
+            <div class='top-row-input'>
+              <input type="text" name="name" required>
+              <input type="text" name="email" required>
+              <input type="text" name="phone">
+            </div>
+          </div>
+          <br>
+          <div class='contact-second-row'>
+            <div class='second-row-headers'>
+              <p>Subject:</p>
+              <p id='p-second'>Services:</p>
+            </div>
+            <div class='second-row-input'>
+              <input type="text" name="subject" required>
+              <select name='services'>
+                <option value=""></option>
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+              </select>
+            </div>
+          </div>
+          <br>
+          <div class='last-row-input'>
+            <p>Message:</p>
+            <input type="text" name="message" id='email-message' required>
+            <br>
+            <input type="submit" value="SEND MESSAGE" id='submit-email'>
+          </div>
         </form>
       </div>
     </div>
