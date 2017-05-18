@@ -79,3 +79,104 @@ select {
   cursor: pointer;
 
 }
+
+
+
+
+@media (max-width: 1200px) {
+  .top-row-headers p {
+    margin-right: 16em;
+  }
+
+  #p-second {
+    margin-right: 0px;
+    margin-left: 4em;
+  }
+}
+
+
+@media (max-width: 1110px) {
+  .top-row-headers p {
+    margin-right: 14em;
+  }
+
+  #p-second {
+    margin-right: 0px;
+    margin-left: 5px;
+  }
+}
+
+
+@media (max-width: 1010px) {
+  .top-row-headers p {
+    margin-right: 11em;
+  }
+
+  .second-row-headers p {
+    margin-right: 24em;
+  }
+}
+
+
+@media (max-width: 870px) {
+  .top-row-headers p {
+    margin-right: 8em;
+  }
+
+  .second-row-headers p {
+    margin-right: 18em;
+  }
+}
+
+
+@media (max-width: 725px) {
+  .top-row-headers p {
+    margin-right: 6em;
+  }
+
+  .second-row-headers p {
+    margin-right: 14em;
+  }
+}
+
+
+@media (max-width: 630px) {
+  .contact-content {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .contact-content h3 {
+    font-size: 25px;
+  }
+
+  .top-row-headers p {
+    margin-right: 8em;
+  }
+
+  .second-row-headers p {
+    margin-right: 18em;
+  }
+}
+
+
+@media (max-width: 550px) {
+  .top-row-headers p {
+    margin-right: 6em;
+  }
+
+  .second-row-headers p {
+    margin-right: 14em;
+  }
+}
+
+
+@media (max-width: 450px) {
+  .top-row-headers p {
+    margin-right: 5em;
+  }
+
+  .second-row-headers p {
+    margin-right: 12em;
+  }
+}
