@@ -9,7 +9,7 @@ $(document).ready(function(){
 
   $('#johnny').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/13 square.jpeg'> \
+      "<img src='/images/13_Square.jpeg'> \
       <div class='leadership-large-content'> \
         <h3>Johnny</h3> \
         <h5>CEO</h5> \
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   $('#ryan').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/14 square.jpeg'> \
+      "<img src='/images/14_Square.jpeg'> \
       <div class='leadership-large-content'> \
         <h3>Ryan</h3> \
         <h5>CFO</h5> \
@@ -31,7 +31,7 @@ $(document).ready(function(){
 
   $('#matt').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/15 square.jpeg'> \
+      "<img src='/images/15_Square.jpeg'> \
       <div class='leadership-large-content'> \
         <h3>Matt</h3> \
         <h5>CTO</h5> \
@@ -42,7 +42,7 @@ $(document).ready(function(){
 
   $('#sam').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/16 square.jpg'> \
+      "<img src='/images/16_Square.jpg'> \
       <div class='leadership-large-content'> \
         <h3>Sam</h3> \
         <h5>Lead</h5> \
@@ -53,7 +53,7 @@ $(document).ready(function(){
 
   $('#nykki').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/17 square.jpg'> \
+      "<img src='/images/17_Square.jpg'> \
       <div class='leadership-large-content'> \
         <h3>Nykki</h3> \
         <h5>CMO</h5> \
@@ -64,7 +64,7 @@ $(document).ready(function(){
 
   $('#sal').click(function() {
     $('.leadership-large').html(
-      "<img src='/images/18 square.jpeg'> \
+      "<img src='/images/18_Square.jpeg'> \
       <div class='leadership-large-content'> \
         <h3>Sal</h3> \
         <h5>Analyst</h5> \
