@@ -5,6 +5,7 @@
   background-image: url('https://i.imgur.com/QIQhCuz.jpg');
   text-align: center;
   position: relative;
+  background-attachment:fixed;
   background-repeat: no-repeat;
 }
 
