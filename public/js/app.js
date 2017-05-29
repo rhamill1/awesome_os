@@ -3,10 +3,6 @@ console.log('app.js is loaded');
 
 $(document).ready(function(){
 
-  // $(window).stellar({
-  //   horizontalScrolling: false
-  // });
-
   $('#johnny').click(function() {
     $('.leadership-large').html(
       "<img src='/images/13_Square.jpeg'> \
@@ -101,6 +97,16 @@ $(document).ready(function(){
       }
     });
   };
+
+
+
+  $(window).scroll(function() {
+    var windowScrollPosition = $(window).scrollTop();
+    var marginTopValue = windowScrollPosition * 1.01
+    var marginTopString = marginTopValue + 'px'
+
+    $('.parallex-index').css('padding-top', marginTopString);
+  });
 
 
 

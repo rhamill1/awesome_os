@@ -7,6 +7,7 @@
   position: relative;
   background-attachment:fixed;
   background-repeat: no-repeat;
+  z-index: -2;
 }
 
 .home-contents h3 {
@@ -35,11 +36,16 @@
   color: #ffc715;
   font-size: 110;
   font-weight: 800;
+  z-index: -1;
 }
 
 .white-index-div {
   height: 500px;
   background: white;
+}
+
+#not-your-white-id {
+  z-index: 2;
 }
 
 .white-index-div h1 {
@@ -49,6 +55,8 @@
   left: 0;
   right: 0;
   margin-left: 2em;
+  margin-top: 0px;
+  padding-top: 1em;
 }
 
 .white-index-div p {
