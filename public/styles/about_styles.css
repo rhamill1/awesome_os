@@ -162,17 +162,7 @@
   margin: 0 auto;
   margin-top: 1em;
   text-align: justify;
-  width: 80%;
-}
-
-.our-office-hibiscus {
-  height: 270px;
-  width: 270px;
-  background-image: url('/images/our_office_hibiscus.png');
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  position: relative;
-  top: 50px;
+  width: 70%;
 }
 
 .coolture {
