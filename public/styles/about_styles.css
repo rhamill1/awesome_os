@@ -89,7 +89,7 @@
 .leadership-team h1 {
   font-size: 80;
   font-weight: 800;
-  color: #ffc715;
+  color: #ff5315;
   margin-top: 1em;
   text-align: center;
 }
@@ -176,15 +176,15 @@
 }
 
 .coolture {
-  height: 1063px;
+  height: 1028px;
 }
 
 .coolture h1 {
   font-size: 80;
   font-weight: 800;
-  color: #ffc715;
+  color: #ff5315;
   margin-top: 1em;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   text-align: center;
 }
 
@@ -246,7 +246,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: #15c1ff;
 }
 
 .coolture-sm-img:hover .coolture-img-overlay {
