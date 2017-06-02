@@ -40,7 +40,7 @@
 }
 
 .white-index-div {
-  height: 500px;
+  height: 600px;
   background: white;
 }
 
@@ -60,17 +60,18 @@
 }
 
 .white-index-div p {
-  font-size: 20;
+  font-size: 18;
   font-weight: 300;
-  color: #4c4849;
-  width: 60%;
+  color: #353535;
+  width: 70%;
   height: 10%;
   margin: auto;
   text-align: center;
+  line-height: 2em;
 }
 
 .red-gradient-curve {
-  height: 500px;
+  height: 750px;
   background-image: url('/images/orange_red_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -81,11 +82,10 @@
   height: 100%;
   display: inline-block;
   float: left;
-  /*background-color: red;*/
 }
 
 .sun-div img {
-  margin-top: 40px;
+  margin-top: 200px;
   max-height: 400px;
 }
 
@@ -102,7 +102,7 @@
 }
 
 .our-people p {
-  font-size: 15;
+  font-size: 18;
   font-weight: 300;
   color: white;
   left: 0;
@@ -110,8 +110,9 @@
   width: 80%;
   height: 10%;
   margin: auto;
-  padding-top: 2em;
+  padding-top: 1em;
   text-align: justify;
+  line-height: 2em;
 }
 
 .our-partnership {
@@ -124,6 +125,10 @@
   float: left;
 }
 
+#partnership-white-id {
+  height: 950px;
+}
+
 .our-partnership h1 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -134,7 +139,8 @@
   text-align: justify;
   margin-bottom: 1em;
   width: 80%;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 2em;
 }
 
 .right-images {
@@ -142,11 +148,9 @@
   width: 50%;
   float: right;
   z-index: -200;
-  /*background-color: purple;*/
 }
 
 .hibiscus-pink-top-right {
-  /*background-image: url('/images/hibiscus_pink_top_right.png');*/
   background-repeat: no-repeat;
   height: 200px;
   width: 50%;
@@ -157,9 +161,8 @@
   background-size: 100% 100%;
 }
 
-
 .blue-gradient-curve {
-  height: 600px;
+  height: 1000px;
   background-image: url('/images/blue_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -179,7 +182,7 @@
 }
 
 .blue-gradient-curve p {
-  font-size: 15;
+  font-size: 18;
   font-weight: 300;
   color: white;
   left: 0;
@@ -187,8 +190,8 @@
   width: 80%;
   height: 10%;
   margin: auto;
-  padding-top: 2em;
   text-align: justify;
+  line-height: 2em;
 }
 
 .blue-gradient-curve img {
@@ -223,12 +226,14 @@
   margin: auto;
   padding-top: 2em;
   text-align: left;
+  color: #353535;
 }
 
 .services p {
-  font-size: 15;
+  font-size: 17;
   font-weight: 300;
-  color: #4c4849;
+  line-height: 2em;
+  color: #353535;
   left: 0;
   right: 0;
   width: 60%;
