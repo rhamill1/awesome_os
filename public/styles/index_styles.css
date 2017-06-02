@@ -40,7 +40,7 @@
 }
 
 .white-index-div {
-  height: 600px;
+  height: 550px;
   background: white;
 }
 
@@ -60,14 +60,14 @@
 }
 
 .white-index-div p {
-  font-size: 18;
-  font-weight: 300;
+  font-size: 20;
+  font-weight: 400;
   color: #353535;
   width: 70%;
   height: 10%;
   margin: auto;
   text-align: center;
-  line-height: 2em;
+  line-height: 1.4em;
 }
 
 .red-gradient-curve {
@@ -102,7 +102,7 @@
 }
 
 .our-people p {
-  font-size: 18;
+  font-size: 20;
   font-weight: 300;
   color: white;
   left: 0;
@@ -112,7 +112,7 @@
   margin: auto;
   padding-top: 1em;
   text-align: justify;
-  line-height: 2em;
+  line-height: 1.4em;
 }
 
 .our-partnership {
@@ -139,8 +139,9 @@
   text-align: justify;
   margin-bottom: 1em;
   width: 80%;
-  font-size: 18px;
-  line-height: 2em;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-weight: 400;
 }
 
 .right-images {
@@ -182,7 +183,7 @@
 }
 
 .blue-gradient-curve p {
-  font-size: 18;
+  font-size: 20;
   font-weight: 300;
   color: white;
   left: 0;
@@ -191,7 +192,7 @@
   height: 10%;
   margin: auto;
   text-align: justify;
-  line-height: 2em;
+  line-height: 1.4em;
 }
 
 .blue-gradient-curve img {
@@ -225,21 +226,21 @@
   width: 60%;
   margin: auto;
   padding-top: 2em;
-  text-align: left;
+  text-align: center;
   color: #353535;
 }
 
 .services p {
   font-size: 17;
-  font-weight: 300;
-  line-height: 2em;
+  font-weight: 400;
+  line-height: 1.4em;
   color: #353535;
   left: 0;
   right: 0;
   width: 60%;
   height: 10%;
   margin: auto;
-  text-align: justify;
+  text-align: center;
   padding: 0;
 }
 
