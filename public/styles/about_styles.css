@@ -1,36 +1,38 @@
 .about-us {
-  height: 650px;
+  height: 875px;
 }
 
 .about-us h1 {
-  font-size: 80;
+  font-size: 70;
   font-weight: 800;
   color: #ff5315;
-  margin-top: 120px;
-  margin-bottom: 10px;
+  margin-top: 100px;
+  margin-bottom: 0px;
   text-align: center;
 }
 
 .about-us h3 {
-  font-size: 50;
+  font-size: 33;
   margin-top: 10px;
   margin-bottom: 0;
   text-align: center;
 }
 
 .about-us p {
-  font-size: 20;
+  font-size: 18;
+  line-height: 1.4em;
+  color: #353535;
   margin: 0 auto;
   margin-top: 1em;
-  margin-bottom: 0;
-  text-align: justify;
-  width: 60%;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 80%;
 }
 
 .about-us img {
   display: block;
   margin: auto;
-  height: 300px;
+  height: 320px;
 }
 
 .red-gradient-curve {
@@ -166,6 +168,7 @@
   margin-top: 1em;
   text-align: justify;
   width: 70%;
+  line-height: 1.4em;
 }
 
 .coolture {
