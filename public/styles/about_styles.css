@@ -34,11 +34,12 @@
 }
 
 .red-gradient-curve {
-  height: 650px;
+  height: 750px;
   background-image: url('/images/orange_red_gradient_curve.png');
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline-block;
+  text-align: center;
 }
 
 .we-are-palm {
@@ -58,7 +59,6 @@
   color: white;
   line-height: 80%;
   padding-top: 150px;
-  text-align: center;
 }
 
 .red-gradient-curve h5 {
@@ -75,6 +75,9 @@
   margin: 0 2em 2em 5em;
   position: relative;
   top: -100px;
+  font-size: 20px;
+  line-height: 1.4em;
+  font-weight: 300;
 }
 
 .red-grad-left, .red-grad-right {
