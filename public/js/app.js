@@ -88,7 +88,7 @@ $(document).ready(function(){
 
     $(window).scroll(function() {
       var windowScrollPosition = $(window).scrollTop();
-      var opacityValue = (windowScrollPosition / 2.5)/100
+      var opacityValue = (windowScrollPosition / 4.1)/100
 
       if (windowScrollPosition < 10){
           $('header').css('background', 'rgba(255, 83, 21, .02)');
