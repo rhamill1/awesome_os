@@ -54,7 +54,7 @@
   color: #ff5315;
   left: 0;
   right: 0;
-  margin-left: 2em;
+  text-align: center;
   margin-top: 0px;
   padding-top: 1em;
 }
@@ -63,8 +63,6 @@
   font-size: 20;
   font-weight: 300;
   color: #4c4849;
-  left: 0;
-  right: 0;
   width: 60%;
   height: 10%;
   margin: auto;
