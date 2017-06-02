@@ -203,6 +203,34 @@
   height: 650px;
 }
 
+.services-icons {
+  height: 90px;
+  width: 90px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#headphone-icon {
+  background-image: url('/images/headphone_icon.png');
+}
+
+#cog-icon {
+  background-image: url('/images/cog_icon.png');
+}
+
+#pencil-icon {
+  background-image: url('/images/pencil_icon.png');
+}
+
+#screen-icon {
+  background-image: url('/images/screen_icon.png');
+}
+
 .services h1 {
   font-size: 60;
   font-weight: 800;
@@ -230,21 +258,21 @@
   width: 60%;
   margin: auto;
   padding-top: 2em;
-  text-align: center;
+  text-align: left;
   color: #353535;
 }
 
 .services p {
-  font-size: 17;
+  font-size: 15.5;
   font-weight: 400;
-  line-height: 1.4em;
+  line-height: 1.6em;
   color: #353535;
   left: 0;
   right: 0;
-  width: 60%;
+  width: 90%;
   height: 10%;
   margin: auto;
-  text-align: center;
+  text-align: left;
   padding: 0;
 }
 
