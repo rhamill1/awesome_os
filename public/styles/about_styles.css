@@ -172,7 +172,7 @@
 }
 
 .coolture {
-  height: 1028px;
+  height: 1128px;
 }
 
 .coolture h1 {
@@ -184,12 +184,15 @@
   text-align: center;
 }
 
-.coolture li {
-  display: inline;
-  margin: 0 0 0 17em;
-  color: #666a73;
-  font-size: 15px;
-  font-weight: 400;
+.coolture p {
+  font-size: 18;
+  line-height: 1.4em;
+  color: #353535;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 60%;
 }
 
 .coolture-lg-img {
@@ -215,9 +218,12 @@
   text-align: center;
 }
 
-.coolture-sm-img h3 {
+.coolture-sm-img p {
   padding-top: 8em;
   color: white;
+  margin: 0 1em;
+  overflow: auto;
+  width: auto;
 }
 
 #coolture-left {
