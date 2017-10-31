@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Absolute OS is a brief Node app for the staffing company of that name.",
   "main": "server.js",
+  "engines": {
+    "node": "6.11.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
